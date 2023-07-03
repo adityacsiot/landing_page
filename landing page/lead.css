@@ -1,0 +1,101 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    color: rgb(228, 228, 217);
+  }
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  .logo{
+    position: relative;
+    font-size: 25px;
+    color: rgb(229, 225, 216);
+    text-decoration: none;
+    font-weight: 600;
+   
+  }
+  .navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 35px;
+    transition: .3s;
+  }
+  .navbar a:hover{
+    color: rgb(255, 255, 255);
+
+  }
+  .home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(/GettyImages-1154837508-e1688304394457.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+
+  }
+  .home-content{
+    min-width: 600px;
+
+  }
+  .home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+  }
+  .home-content p{
+    font-size: 20px;
+
+  }
+  .home-scl a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(250, 250, 247); ;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(254, 254, 250);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+  }
+  .home-scl a:hover{
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    /* box-sizing: 0 0 20px wheat; */
+
+  }
+  .btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background:  rgb(250, 249, 249);
+    border-radius: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 60px;
+    color: rgb(0, 0, 0);
+  }
